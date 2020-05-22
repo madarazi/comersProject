@@ -1,0 +1,119 @@
+header.header
+    .container
+        .top-panel
+            .tpl_hamburger#sandwichmenu
+                svg(viewbox='0 0 800 600')
+                    path.top(d='M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200')
+                    path.middle(d='M300,320 L540,320')
+                    path.bottom(d='M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190', transform='translate(480, 320) scale(1, -1) translate(-480, -318) ')
+            .js_menu
+                .buter
+                    ul
+                        li
+                            a.active(name="home" href="#home") Главная                                      
+                        li
+                            a(href="#services") Наши услуги
+                        li
+                            a(href="#as") О нас 
+                        li
+                            a(href="#a") Акции
+                        li
+                            a(href="#su") Оставить заявку
+                        li
+                            a(href="tel:+74957873422") + 9 999 999 99 99   
+            nav.menu-list
+                ul
+                    li
+                        a.active(name="home" href="#home") Главная                                      
+                    li
+                        a(href="#services") Наши услуги
+                    li
+                        a(href="#") О нас 
+                    li
+                        a(href="#") Акции
+                    li
+                        a(href="#") Оставить заявку           
+            .phone
+                a(href="tel:+74957873422") + 9 999 999 99 99
+        .header__title
+            h1 Ремонт и строительство Санкт-Петербург  и ЛО
+            p Квартиры, бани, срубы.  Работаем “под ключ”.
+            .header__title__btn
+                a(href="#") Оставить заявку
+main
+    article
+        section.services
+            .container
+                .services__title 
+                    h2 
+                        a(name="services" href="#") Наши услуги
+                .services__cards.row
+                    .services__card.card1
+                        img(src="img/icons/card1.png", alt="")
+                        .services__card__title 
+                            a(href="#") Текст
+                        .services__card__text Использование, с Lorem Ipsum текст часто появляются в печати, веб-дизайна.
+                    .services__card.card2
+                        img(src="img/icons/card2.png", alt="")
+                        .services__card__title 
+                            a(href="#") Текст
+                        .services__card__text Использование, с Lorem Ipsum текст часто появляются в печати, веб-дизайна.
+                    .services__card.card3
+                        img(src="img/icons/card3.png", alt="")
+                        .services__card__title 
+                            a(href="#") Текст
+                        .services__card__text Использование, с Lorem Ipsum текст часто появляются в печати, веб-дизайна.
+                .services__btn
+                    a(href="#") Смотреть больше
+        section.about
+            .container
+                .about__title
+                    a(name="as" href="#") О нас
+                .about__card
+                    img(src="img/icons/about.png", alt="")
+                    .about__text
+                        p Давно выяснено, что при оценке дизайна и композиции читаемый текст мешает сосредоточиться. Lorem Ipsum используют потому, что тот обеспечивает более или менее стандартное заполнение шаблона, а также
+                        p реальное распределение букв и пробелов в абзацах, которое не получается при простой дубликации "Здесь ваш текст.. Здесь ваш текст.. Здесь ваш текст.."
+                        p Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым словам "lorem ipsum" сразу показывает, как много веб-страниц всё ещё дожидаются 
+                        p своего настоящего рождения. За прошедшие годы текст Lorem Ipsum получил много версий. Некоторые версии появились по ошибке, некоторые - намеренно например, юмористические варианты.О нас
+        section.stocks
+            .container
+                .stocks__title
+                    a(href="#") Акции
+                .stocks__text
+                    .stocks__text__block
+                        p Многие программы электронной вёрстки и редакторы HTML используют Lorem Ipsum в качестве текста по умолчанию, так что поиск по ключевым
+        section.submit
+            .container
+                .submit__title Оставить заявку
+                .submit__card
+                    .submit__card__title Заполнить форму
+                    .submit__card__inputs
+                        form
+                            input.name(type="text" placeholder="Имя")
+                            input.mail(type="text" placeholder="E-mail")
+                            input.submit-phone(type="text" placeholder="Телефон")
+                            input.comment(type="text" placeholder="Комментарий")
+                        .submit__card__inputs__btn
+                            a(href="#") Отправить
+footer
+    .container
+        .bottom-panel
+            nav.menu-list
+                ul
+                    li
+                        a.active(href="#") Главная                                      
+                    li
+                        a(href="#") Наши услуги
+                    li
+                        a(href="#") О нас 
+                    li
+                        a(href="#") Акции
+                    li
+                        a(href="#") Оставить заявку
+            .rights Все права защищены 2020
+            .phone
+                a(href="tel:+74957873422") + 9 999 999 99 99
+        
+                    
+                                      

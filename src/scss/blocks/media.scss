@@ -1,0 +1,106 @@
+// Экстрабольшие девайсы (большие десктопы, >= 1200px)
+@media (max-width: 1268px) {
+    
+    
+    .services__cards {
+        justify-content: center;
+        margin: 0 auto;
+        max-width: rem-calc(950);
+    }
+    .services__card {
+        margin: 0 auto;
+        margin: rem-calc(30);
+        
+    }
+    .services__btn{
+        margin-top: rem-calc(50);
+    }
+}
+@media (max-width: 1140px) {
+    .about__card{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        img{
+            margin-right: rem-calc(0);
+            margin-bottom: rem-calc(30);
+        }
+    }
+}
+@media (max-width: 992px) {
+ 
+}
+@media (max-width: 700px) {
+    .about__card{
+        margin: 0 auto;
+        img{
+            width: rem-calc(500);
+            height: rem-calc(300);
+        }
+    }
+    .header__title {
+        h1 {
+            font-style: normal;
+            font-weight: 800;
+            font-size: rem-calc(40);
+            line-height: rem-calc(58);
+            align-items: center;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: rem-calc(36);
+        }
+    }
+}
+@media (max-width: 576px) {
+    .submit__card{
+        
+    }
+    .services__card{
+        width: rem-calc(300);
+            height: rem-calc(380);
+       img{
+        width: rem-calc(300);
+        height: rem-calc(200);
+       }
+    }
+    .about__card{
+        margin: 0 auto;
+        img{
+            width: rem-calc(300);
+            height: rem-calc(200);
+        }
+    }
+    .header__title {
+        h1 {
+            font-style: normal;
+            font-weight: 800;
+            font-size: rem-calc(26);
+            line-height: rem-calc(58);
+            align-items: center;
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: rem-calc(36);
+        }
+    }
+}
+
+// Средние девайсы («таблетки», >= 768px)
+@media (max-width: 768px) {
+    .headerfixed{
+        background-color: rgb(30, 30, 48);
+    }
+    .menu-list {
+        display: none;
+    }
+    .phone {
+        display: none;
+    }
+    .tpl_hamburger#sandwichmenu {
+        display: block;
+    }
+}
+
+// Большие девайсы (десктопы, >= 992px)
+
+
