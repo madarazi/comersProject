@@ -17,7 +17,7 @@ header {
 .top-panel {
     position: relative;
     margin-bottom: rem-calc(220);
-    padding-top: 48px;
+    padding-top: rem-calc(48);
     display: flex;
     justify-content: space-between;
 }
@@ -329,7 +329,7 @@ main {
             width: 100%;
             font-style: normal;
             font-weight: normal;
-            font-size: 14px;
+            font-size: rem-calc(14);
             line-height: 130.4%;
             letter-spacing: 0.025em;
             color: rgba(0, 0, 0, 0.51);
