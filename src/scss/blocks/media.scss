@@ -59,7 +59,19 @@
     }
 }
 @media (max-width: 576px) {
+    .buter{
+        width: rem-calc(200);
+        ul{
+            li{
+                a{
+                    font-size: rem-calc(10);
+                    line-height: rem-calc(10);  
+                }
+            }
+        }
+    }
     .stocks__text__block{
+        
         padding-top: rem-calc(100);
     padding-left: rem-calc(81);
     padding-right: rem-calc(81);

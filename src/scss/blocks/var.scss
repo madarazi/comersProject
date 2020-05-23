@@ -57,7 +57,7 @@ $global-font: 16;
     #sandwichmenu {
         position: absolute;
         top: rem-calc(10);
-        right: 0;
+        right: rem-calc(0);
         margin: 5px 0 0 0;  text-align: center;
     }
     .tpl_hamburger svg {height: 40px;width: 60px;}
